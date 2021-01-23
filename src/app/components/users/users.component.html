@@ -1,0 +1,2 @@
+<h1>{{chosenOne?.name}}</h1>
+<app-user *ngFor="let u of users" [user]="u" (bubbleUpUser)="getBubbleUser($event)"></app-user>
