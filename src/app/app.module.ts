@@ -2,14 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
-import { PostsComponent } from './Components/posts/posts.component';
-import { PostComponent } from './Components/post/post.component';
+import { UsersComponent } from './Componets/UsersComp/users/users.component';
+import { UserComponent } from './Componets/UsersComp/user/user.component';
+import {PostsComponent} from './Componets/PostsComp/posts/posts.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    UsersComponent,
+    UserComponent,
     PostsComponent,
-    PostComponent,
 
   ],
   imports: [

@@ -1,0 +1,2 @@
+<app-posts *ngFor="let p of chosenOne" [post]="p"></app-posts>
+<app-user *ngFor="let u of user" [user]="u" (emitterPost)="getPost($event)"></app-user>
